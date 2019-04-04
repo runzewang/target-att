@@ -1,0 +1,11 @@
+WARNING (theano.sandbox.cuda): The cuda backend is deprecated and will be removed in the next release (v0.10).  Please switch to the gpuarray backend. You can get more information about how to switch at this URL:
+ https://github.com/Theano/Theano/wiki/Converting-to-the-new-gpu-back-end%28gpuarray%29
+
+Using gpu device 0: GeForce GTX 1080 (CNMeM is enabled with initial size: 90.0% of memory, cuDNN 5105)
+Loading options... Done
+Loading params... Loading data... Done
+Building Model...
+Building error function...
+Done
+0.822935399087 0.921519804491 0.824410937428
+End Test

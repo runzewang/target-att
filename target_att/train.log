@@ -1,0 +1,78 @@
+WARNING (theano.sandbox.cuda): The cuda backend is deprecated and will be removed in the next release (v0.10).  Please switch to the gpuarray backend. You can get more information about how to switch at this URL:
+ https://github.com/Theano/Theano/wiki/Converting-to-the-new-gpu-back-end%28gpuarray%29
+
+Using gpu device 1: GeForce GTX 1080 (CNMeM is enabled with initial size: 90.0% of memory, cuDNN 5105)
+Host Name: 172.16.46.88 ID: 13319
+ques_num 75821 validFreq 4739
+Build Train and Valid Model... Done
+Building grad... Done
+Building optimizers... Done
+Epoch  0 Update  100 Cost  3.10524630547 UD  0.340544939041 learning_rate 0.001
+Epoch  0 Update  200 Cost  2.47177243233 UD  0.414918899536 learning_rate 0.001
+Epoch  0 Update  300 Cost  2.57924866676 UD  0.362349033356 learning_rate 0.001
+Epoch  0 Update  400 Cost  2.55175352097 UD  0.395135879517 learning_rate 0.001
+Epoch  0 Update  500 Cost  2.96929931641 UD  0.723251104355 learning_rate 0.001
+Epoch  0 Update  600 Cost  2.40171217918 UD  0.567267894745 learning_rate 0.001
+Epoch  0 Update  700 Cost  2.34286499023 UD  0.435670137405 learning_rate 0.001
+Epoch  0 Update  800 Cost  2.3981795311 UD  0.321105957031 learning_rate 0.001
+Epoch  0 Update  900 Cost  2.42934989929 UD  0.671874046326 learning_rate 0.001
+Epoch  0 Update  1000 Cost  2.60246539116 UD  0.377848863602 learning_rate 0.001
+Epoch  0 Update  1100 Cost  2.48161625862 UD  0.446868896484 learning_rate 0.001
+Epoch  0 Update  1200 Cost  2.09968233109 UD  0.327057123184 learning_rate 0.001
+Epoch  0 Update  1300 Cost  2.8254840374 UD  0.664978027344 learning_rate 0.001
+Epoch  0 Update  1400 Cost  1.91778421402 UD  0.535691976547 learning_rate 0.001
+Epoch  0 Update  1500 Cost  1.9869838953 UD  0.566159963608 learning_rate 0.001
+Epoch  0 Update  1600 Cost  2.22384905815 UD  0.421886920929 learning_rate 0.001
+Epoch  0 Update  1700 Cost  2.71588802338 UD  0.585100889206 learning_rate 0.001
+Epoch  0 Update  1800 Cost  2.67259907722 UD  0.712646961212 learning_rate 0.001
+Epoch  0 Update  1900 Cost  2.4561753273 UD  0.574728965759 learning_rate 0.001
+Epoch  0 Update  2000 Cost  1.955093503 UD  0.579876184464 learning_rate 0.001
+Epoch  0 Update  2100 Cost  2.25363969803 UD  0.360525131226 learning_rate 0.001
+Epoch  0 Update  2200 Cost  1.8152230978 UD  0.337458848953 learning_rate 0.001
+Epoch  0 Update  2300 Cost  2.50066137314 UD  0.558408021927 learning_rate 0.001
+Epoch  0 Update  2400 Cost  2.20006775856 UD  0.546370029449 learning_rate 0.001
+Epoch  0 Update  2500 Cost  2.76306200027 UD  0.461335897446 learning_rate 0.001
+Epoch  0 Update  2600 Cost  2.19936919212 UD  0.337620973587 learning_rate 0.001
+Epoch  0 Update  2700 Cost  2.18307542801 UD  0.574714183807 learning_rate 0.001
+Epoch  0 Update  2800 Cost  2.90035915375 UD  0.45342206955 learning_rate 0.001
+Epoch  0 Update  2900 Cost  2.11641478539 UD  0.440029859543 learning_rate 0.001
+Epoch  0 Update  3000 Cost  1.9781525135 UD  0.417510986328 learning_rate 0.001
+Epoch  0 Update  3100 Cost  2.60625648499 UD  0.524849176407 learning_rate 0.001
+Epoch  0 Update  3200 Cost  2.70956301689 UD  0.316930055618 learning_rate 0.001
+Epoch  0 Update  3300 Cost  2.33080458641 UD  0.35666012764 learning_rate 0.001
+Epoch  0 Update  3400 Cost  2.96313452721 UD  0.530843019485 learning_rate 0.001
+Epoch  0 Update  3500 Cost  2.0294406414 UD  0.315136194229 learning_rate 0.001
+Epoch  0 Update  3600 Cost  2.28505206108 UD  0.470183134079 learning_rate 0.001
+Epoch  0 Update  3700 Cost  2.60252141953 UD  0.579533100128 learning_rate 0.001
+Epoch  0 Update  3800 Cost  2.68784284592 UD  0.591176986694 learning_rate 0.001
+Epoch  0 Update  3900 Cost  2.67651772499 UD  0.545428991318 learning_rate 0.001
+Epoch  0 Update  4000 Cost  2.22872924805 UD  0.562139034271 learning_rate 0.001
+Epoch  0 Update  4100 Cost  1.61797094345 UD  0.481950998306 learning_rate 0.001
+Epoch  0 Update  4200 Cost  2.77255988121 UD  0.373106002808 learning_rate 0.001
+Epoch  0 Update  4300 Cost  2.17793893814 UD  0.600848913193 learning_rate 0.001
+Epoch  0 Update  4400 Cost  1.94316756725 UD  0.397866010666 learning_rate 0.001
+Epoch  0 Update  4500 Cost  2.41037082672 UD  0.724341869354 learning_rate 0.001
+Epoch  0 Update  4600 Cost  1.46567261219 UD  0.535691976547 learning_rate 0.001
+Epoch  0 Update  4700 Cost  2.69468998909 UD  0.541556119919 learning_rate 0.001
+Saving the best model... Done
+Saving the model at iteration 4739... Done
+Valid  0.299575332349
+seen 75821 samples
+Saving the model at epoch 0... Done
+Epoch  1 Update  4800 Cost  1.75742650032 UD  0.527721166611 learning_rate 0.001
+Epoch  1 Update  4900 Cost  1.71475112438 UD  0.832247972488 learning_rate 0.001
+Epoch  1 Update  5000 Cost  1.38652575016 UD  0.5600669384 learning_rate 0.001
+Epoch  1 Update  5100 Cost  1.5147190094 UD  0.531737089157 learning_rate 0.001
+Epoch  1 Update  5200 Cost  1.65479111671 UD  0.524211168289 learning_rate 0.001
+Epoch  1 Update  5300 Cost  1.69241607189 UD  0.626853942871 learning_rate 0.001
+Epoch  1 Update  5400 Cost  1.23735964298 UD  0.616780042648 learning_rate 0.001
+Epoch  1 Update  5500 Cost  1.87774920464 UD  0.918837070465 learning_rate 0.001
+Epoch  1 Update  5600 Cost  2.04279947281 UD  0.768067121506 learning_rate 0.001
+Epoch  1 Update  5700 Cost  1.13963925838 UD  0.717054128647 learning_rate 0.001
+Epoch  1 Update  5800 Cost  1.8452450037 UD  0.620157003403 learning_rate 0.001
+Epoch  1 Update  5900 Cost  1.97827315331 UD  0.44171500206 learning_rate 0.001
+Epoch  1 Update  6000 Cost  1.78938221931 UD  0.545011043549 learning_rate 0.001
+Epoch  1 Update  6100 Cost  1.67298841476 UD  0.686010122299 learning_rate 0.001
+Epoch  1 Update  6200 Cost  1.24032461643 UD  0.545919895172 learning_rate 0.001
+Epoch  1 Update  6300 Cost  2.16300368309 UD  0.594753026962 learning_rate 0.001
+Epoch  1 Update  6400 Cost  1.2459603548 UD  0.65415096283 learning_rate 0.001
